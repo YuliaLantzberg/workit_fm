@@ -12,6 +12,17 @@
   padding: 2.4rem 6.4rem;
   background-color: #44ffa1;
   color: #24053e;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: transparent;
+  border-color: #44ffa1;
+  color: #44ffa1;
+}
+
+a {
+  cursor: pointer;
 }
 
 * {
@@ -83,6 +94,11 @@ header {
   background-color: transparent;
   border: none;
   color: #fff;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.hero .hero__container nav .btn-link:hover {
+  color: #44ffa1;
 }
 .hero .hero__container .hero__content {
   margin-top: 5.6rem;

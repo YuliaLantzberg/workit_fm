@@ -39,6 +39,11 @@ header {
 				background-color: transparent;
 				border: none;
 				color: #fff;
+				cursor: pointer;
+				transition: color 0.3s;
+				&:hover {
+					color: $green;
+				}
 			}
 		}
 		.hero__content {

@@ -15,4 +15,15 @@
 	padding: 2.4rem 6.4rem;
 	background-color: $green;
 	color: $purple900;
+	cursor: pointer;
+	transition: all 0.3s;
+	&:hover {
+		background-color: transparent;
+		border-color: $green;
+		color: $green;
+	}
+}
+
+a {
+	cursor: pointer;
 }
