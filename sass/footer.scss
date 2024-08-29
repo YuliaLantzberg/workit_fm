@@ -1,0 +1,25 @@
+footer {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 11.2rem 0;
+
+	.footer__logo {
+		margin-bottom: 5.6rem;
+	}
+	.footer__socials {
+		display: flex;
+		min-width: 11.6rem;
+		justify-content: space-between;
+		li {
+			display: block;
+			a {
+				img {
+					width: 2rem;
+				}
+			}
+		}
+	}
+}

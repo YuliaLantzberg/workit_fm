@@ -1,0 +1,18 @@
+@mixin underline_decor {
+	text-decoration: underline;
+	text-decoration-color: $green;
+	text-decoration-thickness: 0.3rem;
+	text-underline-offset: 1rem;
+}
+
+@mixin wave-bottom {
+	width: 300%;
+	height: 95vh;
+	clip-path: circle(99.9% at 16.5% -230rem);
+}
+.btn {
+	@include text_preset5;
+	padding: 2.4rem 6.4rem;
+	background-color: $green;
+	color: $purple900;
+}

@@ -1,0 +1,40 @@
+@font-face {
+	font-family: Fraunces;
+	src: url("assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+	font-family: Manrope;
+	src: url("assets/fonts/manrope/Manrope-VariableFont_wght.ttf");
+}
+
+@mixin text_preset1 {
+	font-family: "Fraunces", serif;
+	font-weight: 600;
+	font-size: 8rem;
+	line-height: 1;
+}
+
+@mixin text_preset2 {
+	font-family: "Fraunces", serif;
+	font-weight: 600;
+	font-size: 5.6rem;
+	line-height: 1.2;
+}
+
+@mixin text_preset3 {
+	font-family: "Fraunces", serif;
+	font-weight: 600;
+	font-size: 3.2rem;
+	line-height: 1.2;
+}
+
+@mixin text_preset4 {
+	font-family: "Manrope", sans-serif;
+	font-size: 1.8rem;
+	line-height: 1.8;
+}
+
+@mixin text_preset5 {
+	font-family: "Manrope", sans-serif;
+	font-size: 1.8rem;
+	font-weight: 700;
+	line-height: 1.5;
+}
