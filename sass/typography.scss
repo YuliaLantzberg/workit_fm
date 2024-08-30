@@ -12,11 +12,21 @@
 	line-height: 1;
 }
 
+@mixin table_text_preset1 {
+	@include text_preset1;
+	font-size: 6rem;
+}
+
 @mixin text_preset2 {
 	font-family: "Fraunces", serif;
 	font-weight: 600;
 	font-size: 5.6rem;
 	line-height: 1.2;
+}
+
+@mixin table_text_preset2 {
+	@include text_preset2;
+	font-size: 4.8rem;
 }
 
 @mixin text_preset3 {
@@ -26,10 +36,20 @@
 	line-height: 1.2;
 }
 
+@mixin table_text_preset3 {
+	@include text_preset3;
+	font-size: 2.8rem;
+}
+
 @mixin text_preset4 {
 	font-family: "Manrope", sans-serif;
 	font-size: 1.8rem;
 	line-height: 1.8;
+}
+
+@mixin table_text_preset4 {
+	@include text_preset4;
+	font-size: 1.6rem;
 }
 
 @mixin text_preset5 {

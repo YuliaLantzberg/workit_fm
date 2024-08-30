@@ -9,6 +9,14 @@
 	width: 300%;
 	height: 95vh;
 	clip-path: circle(99.9% at 16.5% -230rem);
+	overflow-x: hidden;
+}
+
+@mixin flex-col-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .btn {
 	@include text_preset5;

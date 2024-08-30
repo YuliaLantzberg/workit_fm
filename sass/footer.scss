@@ -1,9 +1,6 @@
 footer {
+	@include flex-col-center;
 	width: 100vw;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	margin: 11.2rem 0;
 
 	.footer__logo {
